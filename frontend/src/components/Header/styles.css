@@ -1,0 +1,21 @@
+.header {
+  background-color: var(--my-black);
+  padding: 2rem 1rem 10.5rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin: 0 auto;
+}
+.logout-icon:hover {
+  color: var(--my-red);
+  cursor: pointer;
+  transition: 300ms;
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -ms-transition: 300ms;
+  -o-transition: 300ms;
+}

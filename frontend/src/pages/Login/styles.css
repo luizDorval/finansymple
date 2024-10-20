@@ -1,0 +1,81 @@
+.login {
+  width: 100%;
+  max-width: 420px;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1rem;
+  background-color: black;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  padding-bottom: 1rem;
+}
+
+a,
+a:visited {
+  color: #fff;
+}
+
+a:hover,
+a:visited:hover {
+  color: var(--my-green);
+}
+
+button {
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: 0.15rem solid var(--my-black);
+  transition: 300ms;
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -ms-transition: 300ms;
+  -o-transition: 300ms;
+  background-color: var(--my-black);
+  color: white;
+}
+
+button:hover:enabled {
+  background-color: var(--my-green-blur);
+  transition: 300ms;
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -ms-transition: 300ms;
+  -o-transition: 300ms;
+  cursor: pointer;
+}
+
+.errorMessage {
+  background-color: lightpink;
+  color: firebrick;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.offscreen {
+  position: absolute;
+  left: -9999px;
+}
+
+.hide {
+  display: none;
+}
+
+.line {
+  display: inline-block;
+}
+
+.title {
+  margin: 0 auto;
+  font-weight: bolder;
+}

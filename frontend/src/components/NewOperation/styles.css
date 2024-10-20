@@ -1,0 +1,19 @@
+.new-operation {
+  color: var(--my-green-blur);
+  width: fit-content;
+}
+
+.new-operation:hover {
+  color: var(--my-green);
+  cursor: pointer;
+  transition: 300ms;
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -ms-transition: 300ms;
+  -o-transition: 300ms;
+}
+
+.new-operation-container {
+  display: flex;
+  justify-content: space-between;
+}

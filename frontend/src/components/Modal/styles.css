@@ -1,0 +1,34 @@
+/* Modal ==============*/
+.modal-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1;
+}
+
+.modal-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal {
+  background-color: #1d1e20;
+  padding: 2.4rem;
+  display: flex;
+  align-items: center;
+  width: 95%;
+  max-width: 490.078px;
+  position: relative;
+  z-index: 1;
+}
+
+.modal.check-modal {
+  padding-top: 0.1rem;
+}

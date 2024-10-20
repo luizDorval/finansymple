@@ -1,0 +1,27 @@
+.card {
+  background-color: #fff;
+  padding: 1.5rem 2rem;
+  border-radius: 0.25rem;
+  margin-bottom: 2rem;
+  color: black;
+}
+
+.card h3 {
+  width: 10rem;
+  font-weight: normal;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card p {
+  font-size: 1.8rem;
+  line-height: 3rem;
+  margin-top: 1rem;
+}
+
+.card.total {
+  background-color: var(--my-green);
+  color: white;
+}

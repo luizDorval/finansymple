@@ -1,0 +1,22 @@
+.container {
+  width: min(90vw, 1000px);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.container-footer {
+  text-align: center;
+  padding: 4rem 0 2rem;
+  opacity: 0.6;
+}
+
+.container-footer a {
+  color: var(--my-black);
+  text-decoration: none;
+}
+
+.container-footer a:hover {
+  color: var(--my-green);
+}

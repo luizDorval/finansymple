@@ -1,0 +1,52 @@
+input,
+textarea {
+  font-size: 22px;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: 0.15rem solid var(--my-black);
+  transition: 300ms;
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -ms-transition: 300ms;
+  -o-transition: 300ms;
+}
+
+label {
+  margin-top: 1rem;
+}
+
+input.valid {
+  border: 0.15rem solid var(--my-green);
+}
+
+input.invalid {
+  border: 0.15rem solid var(--my-red);
+}
+
+.instructions {
+  font-size: 0.75rem;
+  border-radius: 0.5rem;
+  background: #000;
+  color: #fff;
+  padding: 0.25rem;
+  position: relative;
+  bottom: -10px;
+}
+
+.instructions > svg {
+  margin-right: 0.25rem;
+}
+
+.offscreen {
+  position: absolute;
+  left: -9999px;
+}
+
+.hide {
+  display: none;
+}
+
+.line {
+  display: inline-block;
+}

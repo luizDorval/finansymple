@@ -1,0 +1,18 @@
+.export {
+  color: var(--my-black);
+}
+.export:hover {
+  background-color: #1dcc1e20;
+  color: var(--my-green);
+  transition: 300ms;
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -ms-transition: 300ms;
+  -o-transition: 300ms;
+  padding: 0.25rem 0.6rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
